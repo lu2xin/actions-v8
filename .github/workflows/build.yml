@@ -2,7 +2,7 @@ name: Build V8
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
     - 'V8_VERSION'
     - 'builders/**'
