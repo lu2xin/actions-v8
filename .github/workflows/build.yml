@@ -9,7 +9,6 @@ on:
     - '.github/workflows/build.yml'
 
 jobs:
-
   version_reader:
     name: Get version number
     runs-on: ubuntu-latest
